@@ -777,6 +777,7 @@ def programs():
                     return_str += "<tr onclick=\"document.location='reload-program?table_id=" + str(row[0]) + "'\">"
                     return_str += "<td>" + str(row[1]) + "</td><td>" + str(row[2]) + "</td><td>" + time.strftime('%b %d, %Y - %I:%M%p', time.localtime(row[3])) + "</td></tr>"
                     
+                # jhs. st 파일 업로드 버튼이 여기 있음.
                 return_str += """
                     </table>
                     <a href="programs?list_all=1" style="text-align:right; float:right; color:black; font-weight:bold;">List all programs</a>
