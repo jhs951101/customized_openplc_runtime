@@ -790,7 +790,7 @@ def programs():
                         method    =  "post">
                         <br>
                         <input type="file" name="file" id="file" class="inputfile" accept=".st">
-                        <input type="submit" value="Upload Program" name="submit">
+                        <input type="submit" value="Upload Program JHS" name="submit">
                     </form>
                 </div>
             </div>
